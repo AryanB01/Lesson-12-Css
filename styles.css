@@ -1,0 +1,15 @@
+@charset "utf-8";
+svg {
+    border: 1px solid #ef4e4e;
+    width: 100%;
+    height: auto;
+}
+svg:hover {
+    cursor: pointer;
+}
+#bar {
+    transition: width 1.2s;
+}
+svg:active #bar {
+    width: 75%;
+}
